@@ -14,7 +14,7 @@ torchvision>=0.10.0
 sphinx~=4.0.2
 sphinx-rtd-theme
 torchmetrics==0.8
-pillow>=6.2.0
+pillow>=10.2.0
 hydra-core
 omegaconf
 onnxruntime
@@ -28,3 +28,4 @@ deci-lab-client==2.38.0
 treelib==1.6.1
 termcolor==1.1.0
 packaging>=20.4
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
