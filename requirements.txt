@@ -18,7 +18,7 @@ pillow>=6.2.0
 hydra-core
 omegaconf
 onnxruntime
-onnx>=1.10.1
+onnx>=1.16.0
 pip-tools>=6.4.0
 pyparsing==2.4.5
 einops==0.3.2
